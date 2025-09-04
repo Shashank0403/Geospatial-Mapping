@@ -1,5 +1,8 @@
 #--find-links=https://girder.github.io/large_image_wheels GDAL
 # cartopy
+pandas
+numpy
+pyarrow==17.0.0
 cmake
 folium==0.13.0
 geemap[extra]
