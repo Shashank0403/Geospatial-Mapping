@@ -17,7 +17,10 @@ st.set_page_config(layout="wide")
 STREAMLIT_STATIC_PATH = pathlib.Path(st.__path__[0]) / "static"
 # We create a downloads directory within the streamlit static asset directory
 # and we write output files to it
-DOWNLOADS_PATH = STREAMLIT_STATIC_PATH / "downloads"
+from pathlib import Path
+
+DOWNLOADS_PATH = Path("downloads")
+DOWNLOADS_PATH.mkdir(exist_ok=True)
 if not DOWNLOADS_PATH.is_dir():
     DOWNLOADS_PATH.mkdir()
 
