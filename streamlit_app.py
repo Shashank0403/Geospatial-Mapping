@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 
 
 # Customize page title
-st.title("Streamlit for Geospatial Applications")
+st.title("GeoData Visualizer")
 
 
 
