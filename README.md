@@ -54,13 +54,13 @@ pip install -r requirements.txt
 
 3. Run the application:
 ```bash
-streamlit run Home.py
+streamlit run streamlit_app.py
 ```
 
 ## Usage
 
 ### Getting Started
-1. Launch the application using `streamlit run Home.py`
+1. Launch the application using `streamlit run streamlit_app.py`
 2. Navigate through different features using the sidebar menu
 3. Select your desired analysis type (Housing, Heatmap, Marker Cluster, or Timelapse)
 4. Customize visualization parameters using the interactive controls
