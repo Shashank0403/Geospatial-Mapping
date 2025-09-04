@@ -210,17 +210,7 @@ def get_saturday(in_date):
 def app():
 
     st.title("U.S. Real Estate Data and Market Trends")
-    st.markdown(
-        """**Introduction:** This interactive dashboard is designed for visualizing U.S. real estate data and market trends at multiple levels (i.e., national,
-         state, county, and metro). The data sources include [Real Estate Data](https://www.realtor.com/research/data) from realtor.com and
-         [Cartographic Boundary Files](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html) from U.S. Census Bureau.
-         Several open-source packages are used to process the data and generate the visualizations, e.g., [streamlit](https://streamlit.io),
-          [geopandas](https://geopandas.org), [leafmap](https://leafmap.org), and [pydeck](https://deckgl.readthedocs.io).
-    """
-    )
 
-    with st.expander("See a demo"):
-        st.image("https://i.imgur.com/Z3dk6Tr.gif")
 
     row1_col1, row1_col2, row1_col3, row1_col4, row1_col5 = st.columns(
         [0.6, 0.8, 0.6, 1.4, 2]
